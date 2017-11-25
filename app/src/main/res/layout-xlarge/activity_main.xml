@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juanmanuel.semana3tarea.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="1182dp"
+        android:layout_height="1592dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android"
+        tools:layout_editor_absoluteX="-224dp"
+        tools:layout_editor_absoluteY="-1141dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="484dp"
+        android:layout_height="182dp"
+        android:elegantTextHeight="false"
+        android:text="@string/titulo_app"
+        android:textColor="@android:color/black"
+        android:textSize="?attr/listPreferredItemHeightLarge"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="88dp"
+        android:background="@drawable/borde"
+        android:text="@string/boton_app"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/transparent"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="155dp" />
+</android.support.constraint.ConstraintLayout>
